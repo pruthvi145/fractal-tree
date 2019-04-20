@@ -1,0 +1,6 @@
+### CodeBlocks ###
+
+# specific to CodeBlocks IDE
+*.o
+*.exe
+
