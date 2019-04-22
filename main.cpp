@@ -128,7 +128,8 @@ void showallbranches()
 }
 void loop()
 {
-    getch();
+    //getch();
+    delay(100);
     cleardevice();
     showallbranches();
     vector<Branch> nextchildren;
@@ -149,7 +150,7 @@ int main()
     initwindow(1200,800);
     setup();
     setcolor(GREEN);
-    for(short i=1; true; i++)
+    for(short i=1; i<=11; i++)
     {
         cout<<"START: "<<i<<endl;
         cout<<"-----------"<<endl;
